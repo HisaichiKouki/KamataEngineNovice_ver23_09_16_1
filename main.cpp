@@ -47,7 +47,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 		Novice::ScreenPrintf(0, 20, "マージしました");
 
     Novice::ScreenPrintf(0,20,"プルしてから作業します");
-
+	Novice::ScreenPrintf(0, 20, "競合の確認");
 
 		///                                                            ///
 		/// --------------------↑描画処理ここまで-------------------- ///
