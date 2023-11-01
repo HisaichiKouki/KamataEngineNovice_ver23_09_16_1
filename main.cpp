@@ -49,6 +49,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
     Novice::ScreenPrintf(0,20,"マージします");
 	Novice::ScreenPrintf(0, 40, "プルリクエストの作成");
 
+	Novice::ScreenPrintf(0, 40, "競合");
 
 		///                                                            ///
 		/// --------------------↑描画処理ここまで-------------------- ///
