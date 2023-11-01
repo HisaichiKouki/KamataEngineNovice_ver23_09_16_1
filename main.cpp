@@ -44,13 +44,11 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 		Novice::ScreenPrintf(0, 0, "GitHub");
 		Novice::ScreenPrintf(0, 20, "10/11");
 		Novice::ScreenPrintf(0, 20, "10/18");
-		Novice::ScreenPrintf(0, 20, "マージしてください");
+		Novice::ScreenPrintf(0, 20, "マージしました");
 
-
-    Novice::ScreenPrintf(0,20,"マージします");
-	Novice::ScreenPrintf(0, 40, "プルリクエストの作成");
 
 	Novice::ScreenPrintf(0, 40, "競合");
+
 
 
 
@@ -58,7 +56,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 		/// --------------------↑描画処理ここまで-------------------- ///
 		///                                                            ///       
 
-
+		
 
 		// フレームの終了
 		Novice::EndFrame();
