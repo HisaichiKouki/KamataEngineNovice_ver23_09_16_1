@@ -12,8 +12,8 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 
 
 	// キー入力結果を受け取る箱
-	char keys[256] = {0};
-	char preKeys[256] = {0};
+	char keys[256] = { 0 };
+	char preKeys[256] = { 0 };
 
 	// ウィンドウの×ボタンが押されるまでループ
 	while (Novice::ProcessMessage() == 0) {
@@ -36,7 +36,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 		/// --------------------↑更新処理ここまで-------------------- ///
 		///                                                            ///       
 
-	    ///                                                            ///
+		///                                                            ///
 		/// --------------------↓描画処理ここから-------------------- ///
 		///                                                            ///
 
@@ -46,15 +46,17 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 		Novice::ScreenPrintf(0, 20, "10/18");
 		Novice::ScreenPrintf(0, 20, "マージしてください");
 
+
     Novice::ScreenPrintf(0,20,"マージします");
 	Novice::ScreenPrintf(0, 40, "プルリクエストの作成");
+
 
 
 		///                                                            ///
 		/// --------------------↑描画処理ここまで-------------------- ///
 		///                                                            ///       
 
-		
+
 
 		// フレームの終了
 		Novice::EndFrame();
